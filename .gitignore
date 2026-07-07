@@ -1,0 +1,8 @@
+# Build artifacts
+rms
+rms.exe
+*.o
+*.obj
+
+# CSV exports (generated at runtime)
+data/*.csv

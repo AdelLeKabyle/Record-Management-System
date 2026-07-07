@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="480" viewBox="0 0 620 480" font-family="'Cascadia Code','Cascadia Mono',Consolas,Menlo,'DejaVu Sans Mono',monospace" font-size="14">
+  <rect width="620" height="480" rx="10" fill="#0C0C0C"/>
+  <rect width="620" height="36" rx="10" fill="#1F1F1F"/>
+  <rect y="18" width="620" height="18" fill="#1F1F1F"/>
+  <circle cx="22" cy="18" r="6" fill="#FF5F57"/>
+  <circle cx="42" cy="18" r="6" fill="#FEBC2E"/>
+  <circle cx="62" cy="18" r="6" fill="#28C840"/>
+  <text x="310" y="23" text-anchor="middle" fill="#9D9D9D" font-size="12">rms.exe — Record Management System</text>
+  <g xml:space="preserve" fill="#CCCCCC">
+    <text x="20" y="70" fill="#61D6D6" font-weight="bold">  ╔════════════════════════════════════════════╗</text>
+    <text x="20" y="91" fill="#61D6D6" font-weight="bold">  ║          RECORD MANAGEMENT SYSTEM          ║</text>
+    <text x="20" y="112" fill="#61D6D6" font-weight="bold">  ║       Library catalogue · C++ / OOP        ║</text>
+    <text x="20" y="133" fill="#61D6D6" font-weight="bold">  ╚════════════════════════════════════════════╝</text>
+    <text x="20" y="175" fill="#E3B341">  • 6 record(s) loaded from data/records.db</text>
+    <text x="20" y="217" fill="#3A96DD">  ┌─────────── MENU ────────────┐</text>
+    <text x="20" y="238"><tspan fill="#3A96DD">  │ </tspan><tspan fill="#FFFFFF" font-weight="bold">1</tspan><tspan>. Add a record            </tspan><tspan fill="#3A96DD"> │</tspan></text>
+    <text x="20" y="259"><tspan fill="#3A96DD">  │ </tspan><tspan fill="#FFFFFF" font-weight="bold">2</tspan><tspan>. Display all records     </tspan><tspan fill="#3A96DD"> │</tspan></text>
+    <text x="20" y="280"><tspan fill="#3A96DD">  │ </tspan><tspan fill="#FFFFFF" font-weight="bold">3</tspan><tspan>. Search a record         </tspan><tspan fill="#3A96DD"> │</tspan></text>
+    <text x="20" y="301"><tspan fill="#3A96DD">  │ </tspan><tspan fill="#FFFFFF" font-weight="bold">4</tspan><tspan>. Update a record         </tspan><tspan fill="#3A96DD"> │</tspan></text>
+    <text x="20" y="322"><tspan fill="#3A96DD">  │ </tspan><tspan fill="#FFFFFF" font-weight="bold">5</tspan><tspan>. Delete a record         </tspan><tspan fill="#3A96DD"> │</tspan></text>
+    <text x="20" y="343"><tspan fill="#3A96DD">  │ </tspan><tspan fill="#FFFFFF" font-weight="bold">6</tspan><tspan>. Sort records            </tspan><tspan fill="#3A96DD"> │</tspan></text>
+    <text x="20" y="364"><tspan fill="#3A96DD">  │ </tspan><tspan fill="#FFFFFF" font-weight="bold">7</tspan><tspan>. Export to CSV           </tspan><tspan fill="#3A96DD"> │</tspan></text>
+    <text x="20" y="385"><tspan fill="#3A96DD">  │ </tspan><tspan fill="#FFFFFF" font-weight="bold">0</tspan><tspan>. Exit                    </tspan><tspan fill="#3A96DD"> │</tspan></text>
+    <text x="20" y="406" fill="#3A96DD">  └─────────────────────────────┘</text>
+    <text x="20" y="448"><tspan>  Your choice: </tspan><tspan fill="#FFFFFF">▌</tspan></text>
+  </g>
+</svg>
