@@ -5,7 +5,8 @@ SRC       = src/main.cpp src/Book.cpp src/RecordManager.cpp src/ConsoleUI.cpp
 BIN       = rms
 
 ifeq ($(OS),Windows_NT)
-BIN = rms.exe
+BIN       = rms.exe
+CXXFLAGS += -static
 endif
 
 all: $(BIN)
