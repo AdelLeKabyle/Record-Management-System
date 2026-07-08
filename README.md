@@ -2,11 +2,6 @@
 
 A file-based **library catalogue** written in modern **C++ (OOP)**: add, list, search, update, delete, sort and export book records from a clean, colorful, menu-driven command line interface. Every change is saved to disk immediately, so nothing is ever lost.
 
-![Language](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
-![Paradigm](https://img.shields.io/badge/paradigm-OOP-orange.svg)
-![Storage](https://img.shields.io/badge/storage-file--based-green.svg)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
-
 ## Screenshots
 
 | Main menu | All records |
@@ -133,17 +128,6 @@ ID,Title,Author,Year
 1,Dune,Frank Herbert,1965
 2,Le Petit Prince,Antoine de Saint-Exupéry,1943
 ```
-
-## 🧪 Testing
-
-All features were exercised end-to-end with scripted input sessions:
-
-- ✅ Add / display / search (found & not found) / update / delete (confirm & cancel)
-- ✅ Sorting by every field, both directions, order persisted
-- ✅ CSV export, including titles containing commas and quotes
-- ✅ Validation: non-numeric input, out-of-range years, empty fields, duplicate IDs, `|` rejection
-- ✅ Corrupt lines in the data file are reported and skipped
-- ✅ Data survives program restarts (reloaded from file on startup)
 
 ## 📁 Project structure
 
